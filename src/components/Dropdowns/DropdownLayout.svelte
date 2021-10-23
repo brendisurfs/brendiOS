@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { menuStates } from "../../store";
-	import type { MenuStateStruct } from "../../store";
 	import type { Writable } from "svelte/store";
 
 	// binding for matching state
@@ -37,7 +36,7 @@
 <style>
 	.show {
 		position: fixed;
-		transform: translate(20px, 22px);
+		transform: translate(10px, 24px);
 		visibility: visible;
 		width: 120px;
 		height: 120px;
